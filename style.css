@@ -1,9 +1,9 @@
 .header {
   background-color: rgb(154, 198, 240);
   padding: 20px;
-  font-display: auto;
+
   text-align: center;
-  font-size: 100px;
+  font-size: 25px;
   color: white;
 }
 
@@ -81,11 +81,16 @@
   width: 800px;
   padding: 10px;
   border: 1px solid;
-  text-align: center;
+  text-align: left;
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 50px;
+}
+
+.beach {
+  width: 450px;
+  float: right;
 }
 
 .container4 {
@@ -103,6 +108,12 @@
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 50px;
+}
+
+.mountain {
+  width: 150px;
+
+  float: right;
 }
 
 /* Style the footer */
