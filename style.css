@@ -1,0 +1,98 @@
+.header {
+  background-color: rgb(154, 198, 240);
+  padding: 20px;
+  font-display: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(124, 189, 219);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: auto;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link
+.topnav a.active {
+  background-color: #ca6b1d;
+  color: white; 
+}*/
+
+.test:first-child {
+  background-color: yellow;
+}
+
+*/ .container2 {
+  width: 300px;
+  border: 1px solid;
+}
+
+.left {
+  float: center;
+  width: 800px;
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 250px;
+}
+
+.container3 {
+  width: 300px;
+  border: 1px solid;
+}
+
+.left {
+  float: center;
+  width: 800px;
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 250px;
+}
+
+.container4 {
+  width: 300px;
+  border: 1px solid;
+}
+
+.left {
+  float: center;
+  width: 800px;
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 250px;
+}
+/* Style the footer */
+.footer {
+  background-color: rgb(154, 198, 240);
+  padding: 15px;
+  text-align: right;
+  color: white;
+}
