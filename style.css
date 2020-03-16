@@ -9,7 +9,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(124, 189, 219);
+  background-color: rgb(126, 195, 226);
   overflow: hidden;
 
   text-align: right;
@@ -18,7 +18,7 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   float: auto;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,7 +55,20 @@
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  margin-left: 250px;
+  margin-left: 50px;
+}
+/*
+.img-1 {
+  width: 250;
+  height: 300;
+  background-image: url(images/lights.jpeg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}*/
+
+.lights {
+  width: 300px;
+  float: right;
 }
 
 .container3 {
@@ -72,7 +85,7 @@
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  margin-left: 250px;
+  margin-left: 50px;
 }
 
 .container4 {
@@ -89,7 +102,7 @@
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  margin-left: 250px;
+  margin-left: 50px;
 }
 
 /* Style the footer */
