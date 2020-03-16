@@ -3,7 +3,7 @@
   padding: 20px;
   font-display: auto;
   text-align: center;
-  font-size: 35px;
+  font-size: 100px;
   color: white;
 }
 
@@ -11,6 +11,8 @@
 .topnav {
   background-color: rgb(124, 189, 219);
   overflow: hidden;
+
+  text-align: right;
 }
 
 /* Style the links inside the navigation bar */
@@ -89,10 +91,14 @@
   margin-bottom: 5px;
   margin-left: 250px;
 }
+
 /* Style the footer */
 .footer {
   background-color: rgb(154, 198, 240);
   padding: 15px;
   text-align: right;
   color: white;
+}
+.colour {
+  background-color: yellow;
 }
