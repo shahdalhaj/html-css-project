@@ -72,79 +72,27 @@ body {
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 50px;
-  justify-content: space-between;
-}
-
-.p {
-  text-align: left;
 }
 
 .p1 :first-child {
-  color: blue;
+  color: teal;
+  animation: blinkingText 1.2s infinite;
 }
 .p2 :first-child {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50 px;
   color: crimson;
+  animation-play-state: running;
 }
-
-/*
-.img-1 {
-  width: 250;
-  height: 300;
-  background-image: url(images/lights.jpeg);
-  background-size: 50%;
-  background-repeat: no-repeat;
-}*/
-
-.lights {
-  display: flex-right;
-  width: 300px;
-  float: right;
-}
-
-.container3 {
-  width: 300px;
-  border: 1px solid;
-}
-
-.left {
-  float: left;
-  width: 800px;
-  padding: 10px;
-  border: 1px solid;
-  text-align: left;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 50px;
-}
-
-.beach {
-  width: 450px;
-  float: right;
-}
-
-.container4 {
-  width: 400px;
-  border: 1px solid;
-}
-
-.left {
-  float: left;
-  width: 800px;
-  padding: 10px;
-  border: 1px solid;
+.p3{
   text-align: center;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 50px;
 }
 
-.mountain {
-  width: 150px;
-
+.images {
+  display: flex-right;
+  padding-top: 80px;
+  padding-left: 10px;
+  width: 300px;
   float: right;
 }
 
