@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 .header {
   background-color: rgb(154, 198, 240);
   padding: 20px;
@@ -37,26 +40,54 @@
   color: white; 
 }*/
 
+body {
+  margin: 1em;
+  font-family: basic-sans, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: black;
+  background: whitesmoke;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .test:first-child {
   background-color: yellow;
 }
 
 */ .container2 {
+  display: flex;
   width: 300px;
   border: 1px solid;
 }
 
 .left {
-  float: center;
+  float: left;
   width: 800px;
   padding: 10px;
   border: 1px solid;
-  text-align: center;
+  text-align: left;
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 50px;
+  justify-content: space-between;
 }
+
+.p {
+  text-align: left;
+}
+
+.p1 :first-child {
+  color: blue;
+}
+.p2 :first-child {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50 px;
+  color: crimson;
+}
+
 /*
 .img-1 {
   width: 250;
@@ -67,6 +98,7 @@
 }*/
 
 .lights {
+  display: flex-right;
   width: 300px;
   float: right;
 }
@@ -77,7 +109,7 @@
 }
 
 .left {
-  float: center;
+  float: left;
   width: 800px;
   padding: 10px;
   border: 1px solid;
@@ -94,12 +126,12 @@
 }
 
 .container4 {
-  width: 300px;
+  width: 400px;
   border: 1px solid;
 }
 
 .left {
-  float: center;
+  float: left;
   width: 800px;
   padding: 10px;
   border: 1px solid;
@@ -122,7 +154,5 @@
   padding: 15px;
   text-align: right;
   color: white;
-}
-.colour {
-  background-color: yellow;
+  margin-top: auto;
 }
