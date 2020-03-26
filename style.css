@@ -1,106 +1,90 @@
-html {
-  height: 100%;
+body{
+  background-color: rgba(229, 147, 147, 0.74);
 }
-.header {
-  background-color: rgb(154, 198, 240);
-  padding: 20px;
-
-  text-align: center;
-  font-size: 25px;
-  color: white;
+#header {
+  background-color: lightcoral;
+text-align: center;
+width: 1400px;
+height: 130px;
+position: relative;
+bottom: 30px;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgb(126, 195, 226);
-  overflow: hidden;
-
-  text-align: right;
+#container {
+  background-color: #00ffcc;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: auto;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link
-.topnav a.active {
-  background-color: #ca6b1d;
-  color: white; 
-}*/
-
-body {
-  margin: 1em;
-  font-family: basic-sans, sans-serif;
-  font-size: 1.125em;
-  line-height: 1.6;
-  color: black;
-  background: whitesmoke;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.test:first-child {
-  background-color: yellow;
-}
-
-*/ .container2 {
-  display: flex;
-  width: 300px;
-  border: 1px solid;
-}
-
-.left {
-  float: left;
-  width: 800px;
+#content{
   padding: 10px;
-  border: 1px solid;
-  text-align: left;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 50px;
 }
 
-.p1 :first-child {
-  color: teal;
-  animation: blinkingText 1.2s infinite;
 }
-.p2 :first-child {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 50 px;
-  color: crimson;
-  animation-play-state: running;
+#main {
+  width: 600px;
 }
-.p3{
+#footer {
+  clear: both;
+}
+img {
+  width: 330px;
+  height: 210px;
+  position: relative;
+  left : 980px;
+  bottom : 200px;
+}
+h1 {
   text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  color: #f7eff0;
+  position: relative;
+  top: 8px;
+}
+h4 {
+  text-align: center;
+  font-size: 28px;
+  color: aqua;
+}
+h3{
+  position: relative;
+  left: 250px;
+  font-size: 28px;
+  color: aqua;
+}
+a {
+position:relative;
+bottom : 160px;
+left: 200px;
+}
+article {
+  font-size: 17px;
+  font-family:  sans-serif;
+  color: #082e44;
+ margin: 20px 20px 0px 700px;
+  position: relative;
+  right: 400px;
+  padding:20px;
+  border: 3px solid #f5c152;
+}
+#footer {
+color:rgb(75, 5, 37);
+position: relative;
+left: 1020px;
+}
+#text :first-child {
+  padding : 20px;
+  border: 3px solid #cc60fd;
 }
 
-.images {
-  display: flex-right;
-  padding-top: 80px;
-  padding-left: 10px;
-  width: 300px;
-  float: right;
+.nav-links {
+  width: auto;
+  float:left;
+  position: relative;
+  bottom: 130px;
+  color: rgb(170, 114, 207);
+  font-size: 22px;
 }
-
-/* Style the footer */
-.footer {
-  background-color: rgb(154, 198, 240);
-  padding: 15px;
-  text-align: right;
-  color: white;
-  margin-top: auto;
+li{
+  padding: 5px 5px;
+  display: inline-block;
 }
