@@ -1,8 +1,9 @@
 body{
-  background-color: rgba(229, 147, 147, 0.74);
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLzVMrFQX3K_fwiHS3kg33rKd9ohv9ISquwRGFunC1YGtmrLtx);
+  height: 100% 
 }
 #header {
-  background-color: lightcoral;
+  background-color: #a0dffcd7;
 text-align: center;
 width: 1400px;
 height: 130px;
@@ -10,7 +11,7 @@ position: relative;
 bottom: 30px;
 }
 #container {
-  background-color: #00ffcc;
+  background-color: #fd56c8;
   margin-right: auto;
   margin-left: auto;
 }
