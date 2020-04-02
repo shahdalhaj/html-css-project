@@ -56,14 +56,15 @@ article{
   color:green ;
   border-radius: 70px;
   border: 1px solid #ffb266;
- padding: 1em;
+ padding: 10px;
+  font-size: 14px;
   
 }
 article h2{
-  color: pink;
+  color: #99004c;
   display: flex;
   justify-content: center;
-  border-radius: 15px;
+  border-radius: 90px;
   border: 1px solid aqua ;
   background: white ;
 }
@@ -72,8 +73,13 @@ article img{
   position: relative;
   left: 90px;
 }
+article a{
+  position: relative;
+  left: 80px;
+}
+
 #footer{
-  color: purple;
+color: purple;
   border-top: 1px solid purple;
   padding: 10px;
 }
