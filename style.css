@@ -1,13 +1,11 @@
 body{
-  width: 1000px;
-  height: auto;
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvy6a9zyizSzZYKHVVmiwCnC_7QZtQof-CufRPG5m8RjwMqxQS&usqp=CAU);
 }
 #header{
   background: pink;
   height: 80px;
   padding: 20px;
-  width: 1400px;
+  width: auto;
   position: relative;
   bottom: 30px;
   border-bottom: 1px solid purple;
@@ -39,35 +37,45 @@ ul{
    bottom: 5px;
 }
 #container{
- width: 500px;
+ width: 1000px;
+  height: auto;
+ display: flex;
+ justify-content: space-around;
+ flex-flow: wrap;
+ position: relative;
+ left: 200px;
 }
-h2{
-  position: relative;
-  left: 400px;
-  bottom: 10px;
-  color: purple;
-  padding: 3px;
-  font-size: 40px;
-  border-radius: 1em;
-  border: 4px solid pink;
-  background: aqua;
-  text-align: center;
-}
+
 article:first-child {
-  background: #aeee38;
+  background: #FFcc99;
 }
 
 article{
-  background: #eee;
+  background: #ccffcc;
   width: 390px;
-  position:relative;
-  left: 420px;
-  padding: 50px;
-  color: brown;
+  color:green ;
+  border-radius: 70px;
+  border: 1px solid #ffb266;
+ padding: 1em;
+  
 }
-
+article h2{
+  color: pink;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid aqua ;
+  background: white ;
+}
+article img{
+  width: 220px;
+  position: relative;
+  left: 90px;
+}
 #footer{
-color: purple;
+  color: purple;
+  border-top: 1px solid purple;
+  padding: 10px;
 }
 
 
