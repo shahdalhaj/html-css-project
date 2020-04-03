@@ -3,47 +3,61 @@ body{
 }
 #header{
   background: pink;
-  height: 80px;
-  padding: 20px;
-  width: auto;
+  display: flex;
+  width: 100%;
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
+
+ 
   border-bottom: 1px solid purple;
 }
 h1{
+ display: flex;
   position: relative;
-  left: 490px;
-  bottom: 10px;
+  left: 500px;
   color: purple;
-  padding: 5px;
- 
-  
+  padding: 1px;
+  border-radius: 18px;
+  border: 1px solid purple;
+  background: white;
 }
 .nav-sidebar{
-  color: brown;
-}
-ul{
   display: flex;
-  justify-content: space-between;
-  position: relative;
-  bottom:74px;
+flex-flow: column;
+  height: 250px;
+  width: 200px;
+  background:pink;
+  margin:0px;
+  padding:2px;
+ border: 1px solid purple;
+  border-radius: 30px;
+  position:relative;
+  top: 400px;
+  margin: 0px;
+   
 }
+ h4{
+  display: flex;
+  flex-flow: column;
+border: 1px solid purple;
+   border-radius: 10px;
+   color: green;
+}
+
  button{
   color:white;
    padding: 3px 29px;
    background: orange;
     border-radius: 16px;
-   position: relative;
-   bottom: 5px;
 }
 #container{
- width: 1000px;
-  height: auto;
  display: flex;
- justify-content: space-around;
- flex-flow: wrap;
- position: relative;
- left: 200px;
+  width:800px;
+  flex-wrap: wrap;
+position: relative;
+  left: 200px;
+  bottom:150px;
+  
 }
 
 article:first-child {
@@ -51,40 +65,38 @@ article:first-child {
 }
 
 article{
+  flex:1;
+  margin: 5px;
+  max-width: 400px;
   background: #ccffcc;
-  width: 390px;
   color:green ;
   border-radius: 70px;
   border: 1px solid #ffb266;
- padding: 10px;
-  font-size: 14px;
+  align-items: center;
   
 }
-article h2{
+ h2{
+   display: flex;
+   justify-content: center;
   color: #99004c;
-  display: flex;
-  justify-content: center;
-  border-radius: 90px;
+  border-radius: 200px;
   border: 1px solid aqua ;
   background: white ;
+  
 }
-article img{
-  width: 220px;
-  position: relative;
-  left: 90px;
-}
-article a{
-  position: relative;
-  left: 80px;
-}
-
 #footer{
 color: purple;
   border-top: 1px solid purple;
   padding: 10px;
 }
 
+@media screen and (max-width: 900px) {
+  #container {
+    flex-direction: column;
+    
+  }
+}
+
 
   
   
-
